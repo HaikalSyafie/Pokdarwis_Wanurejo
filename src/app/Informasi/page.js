@@ -72,78 +72,65 @@ export default function InformasiPage() {
       {/* Section Reuse Template */}
       {[
         {
-          title: "Pelatihan UMKM Palsu",
-          img: "/PelatihanUmkm.png",
-          text: (
-            <p className="text-justify text-sm sm:text-base md:text-lg text-black leading-relaxed max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4">
-
-                    <span className="font-bold">
-                        Modus penipuan pelatihan UMKM palsu
-                    </span>{" "}
-                    marak terjadi melalui pesan WhatsApp atau media sosial yang mengatasnamakan lembaga resmi seperti Kementerian atau Dinas terkait. 
-                    Pelaku menyebarkan surat undangan palsu untuk mengikuti pelatihan UMKM gratis yang disertai janji bantuan modal usaha. 
-                    Surat atau pesan tersebut tampak meyakinkan karena dilengkapi logo instansi dan bahasa yang formal.
-                    <span className="font-bold"> Ciri umum</span> penipuan ini adalah desakan waktu (misalnya <span className="font-bold italic">"pendaftaran terakhir hari ini"</span>) 
-                    dan narasi bahwa korban “terpilih” tanpa seleksi. Setelah data diserahkan, pelaku langsung menghilang dan sulit dilacak. 
-                    Karena itu, penting bagi pelaku UMKM untuk tidak sembarang membagikan data pribadi, serta selalu memverifikasi informasi melalui 
-                    sumber resmi atau perangkat desa terdekat.
-            </p>
-          ),
-        },
-        {
-          title: "Survei Pendataan Usaha",
-          img: "/SurveiPendataan.png",
-          text: (
-            <>
-              <p className="text-justify text-sm sm:text-base md:text-lg text-black leading-relaxed max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4">
-
-                    <span className="font-bold">
-                        Modus penipuan pelatihan UMKM palsu
-                    </span>{" "}
-                    marak terjadi melalui pesan WhatsApp atau media sosial yang mengatasnamakan lembaga resmi seperti Kementerian atau Dinas terkait. 
-                    Pelaku menyebarkan surat undangan palsu untuk mengikuti pelatihan UMKM gratis yang disertai janji bantuan modal usaha. 
-                    Surat atau pesan tersebut tampak meyakinkan karena dilengkapi logo instansi dan bahasa yang formal.
-                    <span className="font-bold"> Ciri umum</span> penipuan ini adalah desakan waktu (misalnya <span className="font-bold italic">"pendaftaran terakhir hari ini"</span>) 
-                    dan narasi bahwa korban “terpilih” tanpa seleksi. Setelah data diserahkan, pelaku langsung menghilang dan sulit dilacak. 
-                    Karena itu, penting bagi pelaku UMKM untuk tidak sembarang membagikan data pribadi, serta selalu memverifikasi informasi melalui 
-                    sumber resmi atau perangkat desa terdekat.
-                </p>
-            </>
-          ),
-        },
-        {
-          title: "Investasi Bodong",
-          img: "/InvestBodong.png",
-          text: (
-            <>
-              <p className="text-justify text-sm sm:text-base md:text-lg text-black leading-relaxed max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4">
-                <span className="font-bold">Penipuan Survei/Pendataan Usaha</span> palsu sering dilakukan dengan mengatasnamakan instansi pemerintah seperti dinas koperasi atau lembaga survei resmi. 
-                Pelaku menghubungi pelaku UMKM melalui WhatsApp atau telepon dan mengaku sedang melakukan verifikasi untuk bantuan usaha atau pembaruan NIB. 
-                Dengan foto profil profesional, pelaku meminta korban mengisi form atau memberikan data pribadi seperti NIK, nomor rekening, kode OTP, hingga PIN.
-                <span className="font-bold"> Ciri-ciri</span> penipuan ini antara lain ajakan yang mendesak (misalnya <span className="font-bold italic">"data harus dikirim hari ini juga"</span>), 
-                sumber tidak jelas, serta permintaan data sensitif melalui chat pribadi. Setelah data diberikan, pelaku menghilang dan data disalahgunakan untuk pinjaman online atau penipuan lainnya.
-                <span className="font-bold"> Untuk mencegahnya</span>, pastikan selalu memverifikasi ke perangkat desa atau dinas terkait sebelum memberikan informasi apa pun. 
-                Jangan mudah tergoda dengan janji bantuan cepat dan hindari klik link dari nomor tidak dikenal.
-            </p>
-            </>
-          ),
-        },
-        {
-          title: "Skema Ponzi",
-          img: "/SkemaPonzi.png",
-          text: (
-            <>
-              <p className="text-justify text-sm sm:text-base md:text-lg text-black leading-relaxed max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4">
-
-                    <span className="font-bold">Penipuan Investasi Bodong</span> merupakan modus penipuan yang menjanjikan imbal hasil besar dalam waktu singkat dengan risiko minim. 
-                    <span className="font-bold"> Ciri-cirinya</span> meliputi janji keuntungan tidak masuk akal (seperti 10–20% per bulan), tidak adanya transparansi informasi atau izin resmi dari OJK, 
-                    serta tekanan psikologis agar korban segera mentransfer dana tanpa sempat melakukan riset. Setelah dana masuk, pelaku sering menghilang dan pencairan keuntungan pun tidak pernah terjadi.
-                    <span className="font-bold"> Untuk mencegahnya</span>, pastikan selalu memverifikasi legalitas investasi di situs resmi OJK, hindari tergiur iming-iming keuntungan instan, 
-                    dan konsultasikan setiap tawaran dengan pihak tepercaya.
-                </p>
-            </>
-          ),
-        },
+        title: "Pelatihan UMKM Palsu",
+        img: "/PelatihanUmkm.png",
+        text: (
+          <p className="text-justify text-sm sm:text-base md:text-lg text-black leading-relaxed max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4">
+            <span className="font-bold">Modus penipuan pelatihan UMKM palsu</span>{" "}
+            marak terjadi melalui pesan WhatsApp atau media sosial yang mengatasnamakan lembaga resmi seperti Kementerian atau Dinas terkait. 
+            Pelaku menyebarkan surat undangan palsu untuk mengikuti pelatihan UMKM gratis yang disertai janji bantuan modal usaha. 
+            Surat atau pesan tersebut tampak meyakinkan karena dilengkapi logo instansi dan bahasa yang formal.
+            <span className="font-bold"> Ciri umum</span> penipuan ini adalah desakan waktu (misalnya <span className="font-bold italic">&quot;pendaftaran terakhir hari ini&quot;</span>) 
+            dan narasi bahwa korban “terpilih” tanpa seleksi. Setelah data diserahkan, pelaku langsung menghilang dan sulit dilacak. 
+            Karena itu, penting bagi pelaku UMKM untuk tidak sembarang membagikan data pribadi, serta selalu memverifikasi informasi melalui 
+            sumber resmi atau perangkat desa terdekat.
+          </p>
+        ),
+      },
+      {
+        title: "Survei Pendataan Usaha",
+        img: "/SurveiPendataan.png",
+        text: (
+          <p className="text-justify text-sm sm:text-base md:text-lg text-black leading-relaxed max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4">
+            <span className="font-bold">Modus penipuan pelatihan UMKM palsu</span>{" "}
+            marak terjadi melalui pesan WhatsApp atau media sosial yang mengatasnamakan lembaga resmi seperti Kementerian atau Dinas terkait. 
+            Pelaku menyebarkan surat undangan palsu untuk mengikuti pelatihan UMKM gratis yang disertai janji bantuan modal usaha. 
+            Surat atau pesan tersebut tampak meyakinkan karena dilengkapi logo instansi dan bahasa yang formal.
+            <span className="font-bold"> Ciri umum</span> penipuan ini adalah desakan waktu (misalnya <span className="font-bold italic">&quot;pendaftaran terakhir hari ini&quot;</span>) 
+            dan narasi bahwa korban “terpilih” tanpa seleksi. Setelah data diserahkan, pelaku langsung menghilang dan sulit dilacak. 
+            Karena itu, penting bagi pelaku UMKM untuk tidak sembarang membagikan data pribadi, serta selalu memverifikasi informasi melalui 
+            sumber resmi atau perangkat desa terdekat.
+          </p>
+        ),
+      },
+      {
+        title: "Investasi Bodong",
+        img: "/InvestBodong.png",
+        text: (
+          <p className="text-justify text-sm sm:text-base md:text-lg text-black leading-relaxed max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4">
+            <span className="font-bold">Penipuan Survei/Pendataan Usaha</span> palsu sering dilakukan dengan mengatasnamakan instansi pemerintah seperti dinas koperasi atau lembaga survei resmi. 
+            Pelaku menghubungi pelaku UMKM melalui WhatsApp atau telepon dan mengaku sedang melakukan verifikasi untuk bantuan usaha atau pembaruan NIB. 
+            Dengan foto profil profesional, pelaku meminta korban mengisi form atau memberikan data pribadi seperti NIK, nomor rekening, kode OTP, hingga PIN.
+            <span className="font-bold"> Ciri-ciri</span> penipuan ini antara lain ajakan yang mendesak (misalnya <span className="font-bold italic">&quot;data harus dikirim hari ini juga&quot;</span>), 
+            sumber tidak jelas, serta permintaan data sensitif melalui chat pribadi. Setelah data diberikan, pelaku menghilang dan data disalahgunakan untuk pinjaman online atau penipuan lainnya.
+            <span className="font-bold"> Untuk mencegahnya</span>, pastikan selalu memverifikasi ke perangkat desa atau dinas terkait sebelum memberikan informasi apa pun. 
+            Jangan mudah tergoda dengan janji bantuan cepat dan hindari klik link dari nomor tidak dikenal.
+          </p>
+        ),
+      },
+      {
+        title: "Skema Ponzi",
+        img: "/SkemaPonzi.png",
+        text: (
+          <p className="text-justify text-sm sm:text-base md:text-lg text-black leading-relaxed max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4">
+            <span className="font-bold">Penipuan Investasi Bodong</span> merupakan modus penipuan yang menjanjikan imbal hasil besar dalam waktu singkat dengan risiko minim. 
+            <span className="font-bold"> Ciri-cirinya</span> meliputi janji keuntungan tidak masuk akal (seperti 10–20% per bulan), tidak adanya transparansi informasi atau izin resmi dari OJK, 
+            serta tekanan psikologis agar korban segera mentransfer dana tanpa sempat melakukan riset. Setelah dana masuk, pelaku sering menghilang dan pencairan keuntungan pun tidak pernah terjadi.
+            <span className="font-bold"> Untuk mencegahnya</span>, pastikan selalu memverifikasi legalitas investasi di situs resmi OJK, hindari tergiur iming-iming keuntungan instan, 
+            dan konsultasikan setiap tawaran dengan pihak tepercaya.
+          </p>
+        ),
+      },
       ].map(({ title, img, text }, idx) => (
         <section
           key={idx}
