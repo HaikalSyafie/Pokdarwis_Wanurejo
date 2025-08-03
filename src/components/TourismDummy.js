@@ -43,7 +43,7 @@ export default function TourismMapDummy() {
         {/* Gambar Peta */}
         <img
           ref={imgRef}
-          src="/Map_wanurejo.png"
+          src="/map_wanurejo.png"
           alt="Peta Wanurejo"
           className="w-full h-auto object-contain"
           onLoad={() => {
