@@ -7,7 +7,7 @@ export default function InformasiPage() {
       {/* Hero Section */}
       <section className="relative w-full h-[90vh] overflow-hidden">
           <img
-            src="/Tipu.jpg"
+            src="/Tipu.JPG"
             alt="Hero"
             className="absolute inset-0 w-full h-full object-cover"
           />
