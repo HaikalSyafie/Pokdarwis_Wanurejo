@@ -12,7 +12,7 @@ export const komoditas = [
     ilmiah: {
       italic: "Zea mays"
     },
-    gambar: "/jagung_Pakan.jpg",
+    gambar: "/Jagung_pakan.jpg",
     deskripsi: "Jagung pakan lebih adaptif ditanam di Desa Wanurejo dibandingkan jagung manis karena cocok untuk lahan kering dan permintaan yang tinggi dari sektor peternakan di Jawa tengah. Jagung pakan dapat tumbuh optimal di lingkungan dengan suhu  21–30°C, penyinaran penuh, tanah gembur, curah hujan 100-200 mm/bulan (tidak memerlukan banyak air), umur panen 90-110 hari. Biasanya diolah menjadi jagung pipil kering, silase, atau bahan campuran konsentrat pakan."
   },
   {
@@ -21,7 +21,7 @@ export const komoditas = [
       italic: "Clitoria ternatea",
       normal: "L."
     },
-    gambar: "/Telang.png",
+    gambar: "/telang.png",
     deskripsi: "Tanaman telang tumbuh merambat, warna bunga biru keunguan, dikenal karena warnanya yang alami dan kandungan antioksidannya yang tinggi. Telang mudah dibudidayakan karena tahan cuaca panas, cukup disiram saat kondisi kering ekstrim, dan dapat tumbuh di lahan subur hingga kurang subur. Bunganya dapat dipanen setiap 2–3 hari saat bunga mekar penuh. Bunga telang sering diolah menjadi teh herbal, sirup, es bunga telang, pewarna makanan alami, hingga campuran minuman tradisional yang berpotensi menjadi wisata petik telang maupun edukasi olahan telang."
   },
   {
