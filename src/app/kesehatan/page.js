@@ -7,7 +7,7 @@ export default function kesehatanPage() {
 
      <section className="relative w-full h-screen">
         <img
-          src="/kesehatanBG.jpeg"
+          src="/KesehatanBG.jpeg"
           alt="Hero"
           className="w-full h-full object-cover"
         />
