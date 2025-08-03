@@ -34,7 +34,7 @@ export default function InformasiPage() {
         </div>
         <div className="relative z-10 max-w-7xl mx-auto text-center space-y-14"
           data-aos="fade-up">
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center leading-tight">
             <span className="bg-[#0e2877] text-white px-6 py-2 rounded-4xl shadow-lg">
               Penipuan komunitas
             </span>
