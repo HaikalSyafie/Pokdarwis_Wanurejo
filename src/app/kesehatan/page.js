@@ -432,7 +432,7 @@ export default function kesehatanPage() {
       {/* Lemak */}
       <section className="mb-12">
         <Image
-          src="/lemak.png"
+          src="/Lemak.png"
           alt="Lemak"
           width={600}
           height={400}
