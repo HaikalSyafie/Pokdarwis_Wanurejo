@@ -12,7 +12,7 @@ export const komoditas = [
     ilmiah: {
       italic: "Zea mays"
     },
-    gambar: "/Jagung_pakan.jpg",
+    gambar: "/jagung_pakan.jpg",
     deskripsi: "Jagung pakan lebih adaptif ditanam di Desa Wanurejo dibandingkan jagung manis karena cocok untuk lahan kering dan permintaan yang tinggi dari sektor peternakan di Jawa tengah. Jagung pakan dapat tumbuh optimal di lingkungan dengan suhu  21–30°C, penyinaran penuh, tanah gembur, curah hujan 100-200 mm/bulan (tidak memerlukan banyak air), umur panen 90-110 hari. Biasanya diolah menjadi jagung pipil kering, silase, atau bahan campuran konsentrat pakan."
   },
   {
