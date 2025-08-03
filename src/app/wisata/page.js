@@ -43,20 +43,20 @@ export default function HomePage() {
       <div className="absolute inset-0 z-0 grid grid-rows-3 gap-1 bg-white">
         {/* Baris 1: 3 gambar */}
         <div className="grid grid-cols-3 gap-1 bg-white">
-          <img src="/karpet.jpg" className="w-full h-full object-cover" />
-          <img src="/potensii.jpg" className="w-full h-full object-cover" />
-          <img src="/potensiii.jpg" className="w-full h-full object-cover" />
+          <img src="/Karpet.JPG" className="w-full h-full object-cover" />
+          <img src="/potensii.JPG" className="w-full h-full object-cover" />
+          <img src="/potensiii.JPG" className="w-full h-full object-cover" />
         </div>
         {/* Baris 2: 2 gambar */}
         <div className="grid grid-cols-2 gap-1 bg-white">
-          <img src="/yangko.jpg" className="w-full h-full object-cover" />
-          <img src="/potensiiiii.jpg" className="w-full h-full object-cover" />
+          <img src="/Yangko.JPG" className="w-full h-full object-cover" />
+          <img src="/potensiiiii.JPG" className="w-full h-full object-cover" />
         </div>
         {/* Baris 3: 3 gambar */}
         <div className="grid grid-cols-3 gap-1 bg-white">
-          <img src="/potensiiii.jpg" className="w-full h-full object-cover" />
-          <img src="/Rengginang.jpg" className="w-full h-full object-cover" />
-          <img src="/tingal.jpg" className="w-full h-full object-cover" />
+          <img src="/potensiiii.JPG" className="w-full h-full object-cover" />
+          <img src="/Rengginang.JPG" className="w-full h-full object-cover" />
+          <img src="/Tingal.JPG" className="w-full h-full object-cover" />
         </div>
       </div>
 
