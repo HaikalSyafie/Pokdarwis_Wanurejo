@@ -219,7 +219,7 @@ export default function HomePage() {
           {/* Peta Batas Administrasi */}
           <div className="text-center">
             <Image
-              src="/batas_administrasi_wanurejo.png"
+              src="/Batas_administrasi_wanurejo.png"
               alt="Batas Administrasi"
               width={300}
               height={300}
