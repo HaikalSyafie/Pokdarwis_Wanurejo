@@ -85,7 +85,7 @@ export default function HomePage() {
       <section className="relative w-full pt-[180px] pb-28 bg-white overflow-hidden">
         {/* Ornamen kiri */}
         <Image
-          src="/ornamenBunga.png"
+          src="/ornamen_kesehatan.png"
           alt="Ornamen kiri"
           width={250}
           height={250}
@@ -94,7 +94,7 @@ export default function HomePage() {
         {/* Ornamen kanan */}
         <div className="absolute top-24 right-0 z-0 h-[120%] hidden sm:block">
           <Image
-            src="/ornamenBunga.png"
+            src="/ornamen_kesehatan.png"
             alt="Ornamen Kanan"
             width={300}
             height={800}
@@ -123,7 +123,7 @@ export default function HomePage() {
       <section className="relative w-full py-28 bg-white text-black overflow-hidden">
         {/* Ornamen kiri */}
         <Image
-          src="/ornamenBunga.png"
+          src="/ornamen_kesehatan.png"
           alt="Ornamen kiri"
           width={250}
           height={250}
@@ -132,7 +132,7 @@ export default function HomePage() {
         {/* Ornamen kanan */}
         <div className="absolute top-24 right-0 z-0 h-[120%] hidden sm:block">
           <Image
-            src="/ornamenBunga.png"
+            src="/ornamen_kesehatan.png"
             alt="Ornamen Kanan"
             width={300}
             height={800}
