@@ -26,7 +26,7 @@ export default function StuntingStats() {
 
         <button
           onClick={() => setSelected("jateng")}
-          className={`w-full md:w-64 py-10 px-4 rounded-xl text-white font-bold text-3xl ${
+          className={`w-full md:w-64 py-10 px-4 rounded-xl text-black font-bold text-3xl ${
             selected === "jateng" ? "bg-sky-500" : "bg-sky-400 hover:bg-sky-500"
           } transition`}
         >
@@ -38,7 +38,7 @@ export default function StuntingStats() {
       </div>
 
       {/* Penjelasan */}
-      <div className="max-w-3xl mx-auto text-justify text-sm md:text-base leading-relaxed bg-white p-4 md:p-6 rounded-xl shadow">
+      <div className="max-w-3xl mx-auto text-justify text-sm md:text-base leading-relaxed bg-white text-black p-4 md:p-6 rounded-xl shadow">
         {selected === "magelang" ? (
           <>
             <strong>Angka stunting di Kabupaten Magelang</strong> saat ini sebesar <strong>14,6%</strong> masih <strong>di atas target</strong> karena <strong>berada di atas target nasional</strong> yang ditetapkan, yaitu <strong>14%</strong>. 
