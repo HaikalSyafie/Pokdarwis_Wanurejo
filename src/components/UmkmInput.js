@@ -95,14 +95,15 @@ export default function UmkmTable() {
         </button>
       </div>
 
-      <table className="w-full border border-gray-300 dark:border-gray-600">
-        <thead className="bg-gray-100 dark:bg-gray-800">
+      <table className="w-full border border-[#243C84] dark:border-white">
+        <thead className="bg-[#243C84] dark:bg-white">
           <tr>
-            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-black">Nama</th>
-            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-black">Deskripsi</th>
-            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-black">Link GMaps</th>
+            <th className="border border-[#243C84] dark:border-white px-4 py-2 text-left text-white dark:text-black">Nama</th>
+            <th className="border border-[#243C84] dark:border-white px-4 py-2 text-left text-white dark:text-black">Deskripsi</th>
+            <th className="border border-[#243C84] dark:border-white px-4 py-2 text-left text-white dark:text-black">Link GMaps</th>
           </tr>
         </thead>
+
         <tbody>
           {umkmList.map((item) => (
             <tr
