@@ -173,7 +173,7 @@ export default function HomePage() {
       <div className="max-w-6xl mx-auto text-center space-y-10">
         {/* Ornamen kiri */}
         <Image
-          src="/ornamenBunga.png"
+          src="/ornamen_kesehatan.png"
           alt="Ornamen kiri"
           width={250}
           height={250}
@@ -182,7 +182,7 @@ export default function HomePage() {
         {/* Ornamen kanan */}
         <div className="absolute top-24 right-0 z-0 h-[120%] hidden sm:block">
           <Image
-            src="/ornamenBunga.png"
+            src="/ornamen_kesehatan.png"
             alt="Ornamen Kanan"
             width={300}
             height={800}

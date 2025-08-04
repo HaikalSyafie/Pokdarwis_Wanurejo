@@ -137,7 +137,7 @@ export default function InformasiPage() {
           className="relative w-full px-6 py-24 bg-white overflow-hidden"
         >
                <Image
-                    src="/infoKiri.png"
+                    src="/infoKanan.png"
                     alt="Ornamen Kiri"
                     width={250}
                     height={250}

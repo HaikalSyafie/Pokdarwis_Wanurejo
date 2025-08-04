@@ -43,20 +43,20 @@ export default function HomePage() {
       <div className="absolute inset-0 z-0 grid grid-rows-3 gap-1 bg-white">
         {/* Baris 1: 3 gambar */}
         <div className="grid grid-cols-3 gap-1 bg-white">
-          <img src="/Karpet.JPG" className="w-full h-full object-cover" />
-          <img src="/potensii.JPG" className="w-full h-full object-cover" />
-          <img src="/potensiii.JPG" className="w-full h-full object-cover" />
+          <img src="/karpet.jpg" className="w-full h-full object-cover" />
+          <img src="/potensii.jpg" className="w-full h-full object-cover" />
+          <img src="/potensiii.jpg" className="w-full h-full object-cover" />
         </div>
         {/* Baris 2: 2 gambar */}
         <div className="grid grid-cols-2 gap-1 bg-white">
-          <img src="/Yangko.JPG" className="w-full h-full object-cover" />
-          <img src="/potensiiiii.JPG" className="w-full h-full object-cover" />
+          <img src="/yangko.jpg" className="w-full h-full object-cover" />
+          <img src="/potensiiiii.jpg" className="w-full h-full object-cover" />
         </div>
         {/* Baris 3: 3 gambar */}
         <div className="grid grid-cols-3 gap-1 bg-white">
-          <img src="/potensiiii.JPG" className="w-full h-full object-cover" />
-          <img src="/Rengginang.JPG" className="w-full h-full object-cover" />
-          <img src="/Tingal.JPG" className="w-full h-full object-cover" />
+          <img src="/potensiiii.jpg" className="w-full h-full object-cover" />
+          <img src="/Rengginang.jpg" className="w-full h-full object-cover" />
+          <img src="/tingal.jpg" className="w-full h-full object-cover" />
         </div>
       </div>
 
@@ -108,7 +108,7 @@ export default function HomePage() {
     <section className="relative w-full min-h-screen px-6 bg-white overflow-hidden flex flex-col items-center justify-center"
       >
         <Image
-                      src="/ornamenBunga.png"
+                      src="/infoKanan.png"
                       alt="Ornamen kiri"
                       width={250}
                       height={250}
@@ -117,7 +117,7 @@ export default function HomePage() {
                     {/* Ornamen kanan */}
                     <div className="absolute top-24 right-0 z-0 h-[120%] hidden sm:block">
                       <Image
-                        src="/ornamenBunga.png"
+                        src="/infoKanan.png"
                         alt="Ornamen Kanan"
                         width={300}
                         height={800}
@@ -129,7 +129,7 @@ export default function HomePage() {
       <h2 className="text-2xl md:text-3xl font-bold bg-[#0e2877] text-white inline-block px-6 py-3 rounded-2xl shadow-md mt-8"
           data-aos="fade-left">
             Peta Desa Wisata
-      </h2>
+      </h2>-
 
       {/* Komponen Peta */}
       <div className="w-full flex justify-center"
@@ -182,7 +182,7 @@ export default function HomePage() {
                     {/* Ornamen kanan */}
         <div className="absolute top-24 right-0 z-0 h-[120%] hidden sm:block">
               <Image
-              src="/ornamenBunga.png"
+              src="/infoKanan.png"
               alt="Ornamen Kanan"
               width={300}
               height={800}
@@ -309,7 +309,7 @@ export default function HomePage() {
                 <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
                 <div>
                   <p className="font-semibold text-sm">Booking & information:</p>
-                  <p className="font-bold text-base">+62 823-2922-4570 (Dery)</p>
+                  <p className="font-bold text-base">+62 823-2922-4570</p>
                 </div>
               </div>
             </div>
