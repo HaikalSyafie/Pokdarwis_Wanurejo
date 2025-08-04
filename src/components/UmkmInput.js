@@ -176,56 +176,60 @@ export default function UmkmTable() {
       )}
 
       {/* Modal Aksi (Edit/Hapus/Setujui) */}
-      {selectedUmkm && actionModal === "menu" && (
-        <div className="fixed inset-0  flex items-center justify-center z-50">
-          <div className="bg-white p-4 rounded shadow-md w-full max-w-sm">
-            <h2 className="text-lg font-semibold mb-4">{selectedUmkm.nama}</h2>
-            <div className="space-y-2">
-              <button
-                onClick={() => {
-                  setFormData({
-                    nama: selectedUmkm.nama,
-                    deskripsi: selectedUmkm.deskripsi,
-                    linkGmaps: selectedUmkm.linkGmaps,
-                    password: "",
-                  });
-                  setActionModal("edit");
-                }}
-                className="w-full bg-yellow-500 text-white py-2 rounded"
-              >
-                Edit
-              </button>
-              <button
-                onClick={() => {
-                  setFormData({ ...formData, password: "" });
-                  setActionModal("hapus");
-                }}
-                className="w-full bg-red-600 text-white py-2 rounded"
-              >
-                Hapus
-              </button>
-              <button
-                onClick={() => {
-                  setFormData({ ...formData, password: "" });
-                  setActionModal("setujui");
-                }}
-                className="w-full bg-green-600 text-white py-2 rounded"
-              >
-                Setujui
-              </button>
-              <button
-                onClick={() => {
-                  setActionModal(null);
-                  setSelectedUmkm(null);
-                }}
-                className="w-full bg-gray-300 py-2 rounded"
-              >
-                Batal
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+      {/* Modal Aksi (Edit/Hapus/Setujui) */}
+{selectedUmkm && actionModal === "menu" && (
+  <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-40">
+    <div className="bg-white dark:bg-gray-900 p-4 rounded shadow-md w-full max-w-sm transition-all">
+      <h2 className="text-lg font-semibold mb-4 dark:text-white">
+        {selectedUmkm.nama}
+      </h2>
+      <div className="space-y-2">
+        <button
+          onClick={() => {
+            setFormData({
+              nama: selectedUmkm.nama,
+              deskripsi: selectedUmkm.deskripsi,
+              linkGmaps: selectedUmkm.linkGmaps,
+              password: "",
+            });
+            setActionModal("edit");
+          }}
+          className="w-full bg-yellow-500 text-white py-2 rounded hover:bg-yellow-600 transition"
+        >
+          Edit
+        </button>
+        <button
+          onClick={() => {
+            setFormData({ ...formData, password: "" });
+            setActionModal("hapus");
+          }}
+          className="w-full bg-red-600 text-white py-2 rounded hover:bg-red-700 transition"
+        >
+          Hapus
+        </button>
+        <button
+          onClick={() => {
+            setFormData({ ...formData, password: "" });
+            setActionModal("setujui");
+          }}
+          className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700 transition"
+        >
+          Setujui
+        </button>
+        <button
+          onClick={() => {
+            setActionModal(null);
+            setSelectedUmkm(null);
+          }}
+          className="w-full bg-gray-300 dark:bg-gray-700 dark:text-white py-2 rounded hover:bg-gray-400 dark:hover:bg-gray-600 transition"
+        >
+          Batal
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
 
       {/* Modal Edit */}
       {selectedUmkm && actionModal === "edit" && (
