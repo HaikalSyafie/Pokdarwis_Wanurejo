@@ -120,7 +120,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION VISI MISI */}
-      <section className="relative w-full py-28 bg-white overflow-hidden">
+      <section className="relative w-full py-28 bg-white text-black overflow-hidden">
         {/* Ornamen kiri */}
         <Image
           src="/ornamenBunga.png"

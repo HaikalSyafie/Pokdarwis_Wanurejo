@@ -268,7 +268,7 @@ export default function HomePage() {
         />
       </div>
     </section>
-    <section className="w-full px-4 py-12 bg-white">
+    <section className="w-full px-4 py-12 bg-white text-black">
         <div className="max-w-6xl mx-auto"
           data-aos="fade-up">
           <h2 className="text-2xl font-semibold mb-8">Fasilitas</h2>
