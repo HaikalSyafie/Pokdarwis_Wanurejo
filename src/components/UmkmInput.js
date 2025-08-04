@@ -89,34 +89,38 @@ export default function UmkmTable() {
         <h1 className="text-xl font-bold">Daftar UMKM Baru</h1>
         <button
           onClick={() => setShowAddModal(true)}
-          className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+          className="px-4 py-2 bg-green-600 text-black rounded hover:bg-green-700"
         >
           Tambah UMKM
         </button>
       </div>
 
-      <table className="w-full border border-gray-300">
-        <thead className="bg-gray-100">
+      <table className="w-full border border-gray-300 dark:border-gray-600">
+        <thead className="bg-gray-100 dark:bg-gray-800">
           <tr>
-            <th className="border px-4 py-2 text-left">Nama</th>
-            <th className="border px-4 py-2 text-left">Deskripsi</th>
-            <th className="border px-4 py-2 text-left">Link GMaps</th>
+            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-white">Nama</th>
+            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-white">Deskripsi</th>
+            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-white">Link GMaps</th>
           </tr>
         </thead>
         <tbody>
           {umkmList.map((item) => (
             <tr
               key={item._id}
-              className="hover:bg-gray-50 cursor-pointer"
+              className="hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer transition"
               onClick={() => {
                 setSelectedUmkm(item);
                 setActionModal("menu");
               }}
             >
-              <td className="border px-4 py-2">{item.nama}</td>
-              <td className="border px-4 py-2">{item.deskripsi}</td>
-              <td className="border px-4 py-2">
-                <a href={item.linkGmaps} target="_blank" className="text-blue-600 underline">
+              <td className="border border-gray-300 dark:border-gray-600 px-4 py-2 dark:text-white">{item.nama}</td>
+              <td className="border border-gray-300 dark:border-gray-600 px-4 py-2 dark:text-white">{item.deskripsi}</td>
+              <td className="border border-gray-300 dark:border-gray-600 px-4 py-2">
+                <a
+                  href={item.linkGmaps}
+                  target="_blank"
+                  className="text-blue-600 dark:text-blue-400 underline"
+                >
                   Lihat di Maps
                 </a>
               </td>
@@ -124,6 +128,7 @@ export default function UmkmTable() {
           ))}
         </tbody>
       </table>
+
 
       {/* Modal Tambah UMKM */}
       {showAddModal && (
