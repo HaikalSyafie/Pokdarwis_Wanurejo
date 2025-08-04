@@ -86,7 +86,7 @@ export default function UmkmTable() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-xl font-bold text-black dark:text-white">Daftar UMKM Baru</h1>
+        <h1 className="text-xl font-bold text-black dark:text-black">Daftar UMKM Baru</h1>
         <button
           onClick={() => setShowAddModal(true)}
           className="px-4 py-2 bg-green-600 text-black rounded hover:bg-green-700"
@@ -98,9 +98,9 @@ export default function UmkmTable() {
       <table className="w-full border border-gray-300 dark:border-gray-600">
         <thead className="bg-gray-100 dark:bg-gray-800">
           <tr>
-            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-white">Nama</th>
-            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-white">Deskripsi</th>
-            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-white">Link GMaps</th>
+            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-black">Nama</th>
+            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-black">Deskripsi</th>
+            <th className="border border-gray-300 dark:border-gray-600 px-4 py-2 text-left dark:text-black">Link GMaps</th>
           </tr>
         </thead>
         <tbody>
@@ -134,7 +134,8 @@ export default function UmkmTable() {
       {showAddModal && (
         <div className="fixed inset-0  flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded shadow-md w-full max-w-md">
-            <h2 className="text-lg font-semibold mb-4">Tambah UMKM</h2>
+           <h2 className="text-lg font-semibold mb-4 text-black dark:text-black">Tambah UMKM</h2>
+
             <form onSubmit={handleAddSubmit} className="space-y-3">
               <input
                 type="text"
