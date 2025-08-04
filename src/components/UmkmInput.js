@@ -86,7 +86,7 @@ export default function UmkmTable() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-xl font-bold">Daftar UMKM Baru</h1>
+        <h1 className="text-xl font-bold text-black dark:text-white">Daftar UMKM Baru</h1>
         <button
           onClick={() => setShowAddModal(true)}
           className="px-4 py-2 bg-green-600 text-black rounded hover:bg-green-700"
@@ -170,7 +170,7 @@ export default function UmkmTable() {
                 <button
                   type="button"
                   onClick={() => setShowAddModal(false)}
-                  className="bg-gray-300 px-4 py-2 rounded"
+                  className="bg-red-300 px-4 py-2 rounded"
                 >
                   Batal
                 </button>
